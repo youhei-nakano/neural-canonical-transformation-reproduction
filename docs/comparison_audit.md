@@ -141,12 +141,12 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python experiments/harmonic4/
 ## 参照箇所一覧
 
 - 論文PDF：II.A p.2 式(1)；III.A.1 p.3 式(2)(3)；III.A.2 pp.3–4 式(4)；III.B.1 p.4 式(5)；IV.B pp.5–6 Fig.3；IV.C p.6（分子の学習設定）；Appendix A p.12、B pp.12–13。
-- [公式variation.py](../vendor/neuralCT/variation.py)：L16、L21–37、L63–89、L98–120。
-- [公式notebook](../vendor/neuralCT/2_HarmonicChain.ipynb)：cell1/2/4、JSON L18、L59–98、L134–177。
-- [flowBuilder](../vendor/neuralCT/utils/flowBuilder.py)：L12–36；[DiagScaling](../vendor/neuralCT/flow/diagScaling.py)：L8–40；[PointTransformation](../vendor/neuralCT/flow/pointTransformation.py)：L11–25。
-- [HarmonicChain](../vendor/neuralCT/source/harmonicChain.py)：L6–22；[Source](../vendor/neuralCT/source/source.py)：L26–33；[Gaussian](../vendor/neuralCT/source/gaussian.py)：L7–18。
-- [RNVP](../vendor/neuralCT/flow/rnvp.py)：L13–41；[MLP](../vendor/neuralCT/utils/layers/mlp.py)：L6–35；[ScalableTanh](../vendor/neuralCT/utils/layers/scalableTanh.py)：L5–10。
-- [learn/reversedKLD](../vendor/neuralCT/train/learn.py)：L7–33、L43–48；[sample/logProbability](../vendor/neuralCT/flow/flow.py)：L17–30；[layer order](../vendor/neuralCT/utils/layerList.py)：L3–13。
+- [公式variation.py](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/variation.py)：L16、L21–37、L63–89、L98–120。
+- [公式notebook](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/2_HarmonicChain.ipynb)：cell1/2/4、JSON L18、L59–98、L134–177。
+- [flowBuilder](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/utils/flowBuilder.py)：L12–36；[DiagScaling](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/flow/diagScaling.py)：L8–40；[PointTransformation](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/flow/pointTransformation.py)：L11–25。
+- [HarmonicChain](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/source/harmonicChain.py)：L6–22；[Source](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/source/source.py)：L26–33；[Gaussian](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/source/gaussian.py)：L7–18。
+- [RNVP](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/flow/rnvp.py)：L13–41；[MLP](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/utils/layers/mlp.py)：L6–35；[ScalableTanh](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/utils/layers/scalableTanh.py)：L5–10。
+- [learn/reversedKLD](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/train/learn.py)：L7–33、L43–48；[sample/logProbability](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/flow/flow.py)：L17–30；[layer order](https://github.com/li012589/neuralCT/blob/f5673f185a2b787f748cb72721eadebf907413a4/utils/layerList.py)：L3–13。
 - [今回コード](../experiments/harmonic4/run.py)：L13–29設定、L32–51学習評価、L53–78幾何学と描画；[metrics](../results/harmonic4/metrics.json)：L2–27；[loss](../results/harmonic4/loss.csv)；保存済み標本（公開パッケージには含めない）。
 
 本監査では原コード・README・metrics・画像・モデルを変更せず、新しい監査文書だけを追加した。新しい学習・公開・外部共有はない。
