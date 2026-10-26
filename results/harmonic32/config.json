@@ -1,0 +1,21 @@
+{
+  "n": 32,
+  "kappa": 1,
+  "beta": 1,
+  "num_flow": 1,
+  "coupling_layers": 8,
+  "hidden": 128,
+  "hidden_layers": 2,
+  "batch": 200,
+  "updates": 5000,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "optimizer": "Adam",
+  "scheduler": null,
+  "precision": "float32",
+  "threads": 1,
+  "model_seed": 42,
+  "training_seed": 43,
+  "evaluation_seed": 2026,
+  "upstream_commit": "f5673f185a2b787f748cb72721eadebf907413a4"
+}

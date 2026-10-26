@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the original paper when using this reproduction."
+title: "Neural Canonical Transformation: Mac reproduction experiments"
+type: software
+license: Apache-2.0
+date-released: 2026-10-26
+repository-code: "https://github.com/youhei-nakano/neural-canonical-transformation-reproduction"
+authors:
+  - name: "youhei-nakano"
+references:
+  - type: article
+    title: "Neural Canonical Transformation with Symplectic Flows"
+    authors:
+      - family-names: Li
+        given-names: Shuo-Hui
+      - family-names: Dong
+        given-names: Chen-Xiao
+      - family-names: Zhang
+        given-names: Linfeng
+      - family-names: Wang
+        given-names: Lei
+    year: 2020
+    journal: "Physical Review X"
+    volume: 10
+    start: "021020"
+    doi: "10.1103/PhysRevX.10.021020"

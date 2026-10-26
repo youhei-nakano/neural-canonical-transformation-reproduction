@@ -1,0 +1,28 @@
+{
+  "seed_model": 42,
+  "seed_training": 43,
+  "seed_evaluation": 2026,
+  "steps": 600,
+  "batch": 128,
+  "n": 4,
+  "train_seconds": 3.1578981659840792,
+  "before": {
+    "reverse_KL_MC": 2.0408508989233978,
+    "MC_standard_error": 0.03612842308161298,
+    "cov_relative_error": 0.5952219155802402
+  },
+  "after": {
+    "reverse_KL_MC": 0.35430924339507985,
+    "MC_standard_error": 0.009157679320123839,
+    "cov_relative_error": 0.4524036730207687
+  },
+  "inverse_max_abs_error": 6.661338147750939e-16,
+  "point_symplectic_max_abs_defect": 5.551115123125783e-16,
+  "full_sampler_symplectic_defect": 0.22282696739286845,
+  "logZ": 6.5467893094203315,
+  "python": "3.12.14",
+  "torch": "2.14.1",
+  "numpy": "2.5.4",
+  "matplotlib": "3.11.2",
+  "threads": 1
+}

@@ -1,0 +1,17 @@
+.venv/
+venv/
+vendor/
+runs/
+__pycache__/
+*.pyc
+*.pt
+*.saving
+*.npz
+*.hdf5
+*.log
+.DS_Store
+mpl-cache/
+.env
+.env.*
+!.env.example
+verification-local.json

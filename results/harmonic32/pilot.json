@@ -1,0 +1,9 @@
+{
+  "updates": 100,
+  "train_seconds": 2.536984916892834,
+  "estimated_5000_train_seconds": 126.8492458446417,
+  "peak_RSS_MiB": 342.046875,
+  "threads": 1,
+  "cpu": "Apple M1",
+  "memory_GB": 8
+}
